@@ -8,6 +8,10 @@ actionLink: /getting-started/
 footer: Apache 2.0 Licensed | Copyright © 2019-present Oz Ramos
 ---
 
+::: warning Coming Soon 📅
+**12/21** - This site is still in the works. Our plan is to officially launch on January 1st, 2020. Follow me on [Twitter @HeyOzRamos](https://twitter.com/heyozramos)
+:::
+
 <!-- Features section -->
 <div class="features">
   <div class="feature">
@@ -29,7 +33,7 @@ footer: Apache 2.0 Licensed | Copyright © 2019-present Oz Ramos
 <div class="card">
   <h2>Become a beta tester!</h2>
 
-  <p>Enter your email to get notified when the Handsfree Chrome Extension is available for testing <strong><small>(you'll only receive one email)</small></strong></p>
+  <p>Enter your email to get notified when the Handsfree Chrome Extension is available for testing <strong><small>(we'll only send you one email)</small></strong></p>
 
   <!-- Mailchimp -->
   <form action="https://handsfree.us4.list-manage.com/subscribe/post?u=68fc2805161cded43e4f479fb&amp;id=d3a6b8610f" method="post">
