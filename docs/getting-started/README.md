@@ -18,11 +18,11 @@ meta:
     <a class="button" href="https://handsfree.js.org">Code with Handsfree.js</a>
   </div>
   <div class="column">
-    <h2>Demos</h2>
-    <p>coming soon...</p>
+    <h2>Demos and Experiments</h2>
+    <p>Click the button below to explore our site handsfree and get an early glimpse of upcoming features that will be added to the Handsfree Chrome Extension and Handsfree.js.</p>
   </div>
   <div class="column">
     <h2>Get Involved</h2>
-    <p>coming soon...</p>
+    <p>Learn how you can get involved with contributing to Handsfree.js, the Handsfree Chrome Extension, and our mission of helping everyone on Earth access the web handsfree.</p>
   </div>
 </div>
