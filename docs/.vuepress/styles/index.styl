@@ -8,6 +8,10 @@ hr
 .home header.hero .description
   max-width 40rem
 
+.features.padless > div
+  flex-basis 33%
+  max-width 33%
+
 // Forms
 form
   margin 40px 0
@@ -50,6 +54,37 @@ form
     background $accentColor
     color #fff
     font-weight bold
+
+.button
+  display inline-block
+  font-size 1.2rem
+  color #fff
+  background-color $accentColor
+  padding 0.8rem 1.6rem
+  border-radius 4px
+  -webkit-transition background-color 0.1s ease
+  transition background-color 0.1s ease
+  box-sizing border-box
+  border-bottom 1px solid darken($accentColor, 15%)
+
+  &:hover
+    background lighten($accentColor, 15%)
+    text-decoration none !important
+
+// Columns
+.columns
+  display flex
+  flex-wrap wrap
+
+  .column
+    box-sizing border-box
+    flex 0 50%
+    padding 20px
+
+    &:nth-child(2n-1)
+      padding-left 0
+    &:nth-child(2n)
+      padding-right 0
 
 // Cards
 .card

@@ -3,8 +3,8 @@ home: true
 heroImage: https://i.imgur.com/lBdg97f.gif
 heroText: BrowseHandsfree
 tagline: use your webcam to control your browser handsfree
-actionText: Start webcam
-actionLink: /getting-started
+actionText: Get Started ➡
+actionLink: /getting-started/
 footer: Apache 2.0 Licensed | Copyright © 2019-present Oz Ramos
 ---
 
@@ -29,7 +29,7 @@ footer: Apache 2.0 Licensed | Copyright © 2019-present Oz Ramos
 <div class="card">
   <h2>Become a beta tester!</h2>
 
-  <p>Enter your email below to get a notified of when the Handsfree Chrome Extension is ready for beta testing. <strong>You'll only receive one email.</strong></p>
+  <p>Enter your email to get notified when the Handsfree Chrome Extension is available for testing <strong><small>(you'll only receive one email)</small></strong></p>
 
   <!-- Mailchimp -->
   <form action="https://handsfree.us4.list-manage.com/subscribe/post?u=68fc2805161cded43e4f479fb&amp;id=d3a6b8610f" method="post">
@@ -42,7 +42,7 @@ footer: Apache 2.0 Licensed | Copyright © 2019-present Oz Ramos
 </div>
 
 <!-- Tweets -->
-<div class="features">
+<div class="features padless">
   <div class="feature">
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">More work on the Handsfree Chrome Extension! Here&#39;s what it looks like inside YouTube, including:<br><br>- Scrolling<br>- Clicking on videos<br>- Starting/stopping them<br>- Liking videos/comments<br>- Changing video size<br><br>Day 12 of <a href="https://twitter.com/hashtag/100DaysofCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysofCode</a> and <a href="https://twitter.com/hashtag/100DaysofMLCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysofMLCode</a> <a href="https://t.co/1L0cWrw6u4">pic.twitter.com/1L0cWrw6u4</a></p>&mdash; Oz Ramos (@HeyOzRamos) <a href="https://twitter.com/HeyOzRamos/status/1204905957563588608?ref_src=twsrc%5Etfw">December 11, 2019</a></blockquote>
   </div>
@@ -54,4 +54,4 @@ footer: Apache 2.0 Licensed | Copyright © 2019-present Oz Ramos
   </div>
 </div>
 
-<TwitterAPILoader />
+<TweetLoader />
