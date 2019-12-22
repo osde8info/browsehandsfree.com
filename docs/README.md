@@ -54,8 +54,4 @@ footer: Apache 2.0 Licensed | Copyright © 2019-present Oz Ramos
   </div>
 </div>
 
-<script>
-  const $script = document.createElement('script')
-  $script.src = 'https://platform.twitter.com/widgets.js'
-  document.body.appendChild($script)
-</script>
+<TwitterAPILoader />
