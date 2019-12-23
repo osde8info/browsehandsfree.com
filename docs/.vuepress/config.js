@@ -33,6 +33,13 @@ module.exports = {
       { text: 'Get Involved', link: '/get-involved/' }
     ],
 
-    sidebar: ['/', '/getting-started/', '/demos/']
+    sidebar: [
+      '/',
+      '/getting-started/',
+      '/browser/',
+      '/code/',
+      '/demos/',
+      '/get-involved/'
+    ]
   }
 }
