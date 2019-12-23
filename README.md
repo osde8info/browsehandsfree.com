@@ -27,6 +27,20 @@
 <br>
 <br>
 
+# License & Attributions
+
+This repo is available for free and commercial use under [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html).
+
+## Art
+
+- [Monkey logo adaption](https://www.designevo.com/apps/logo/?name=cute-monkey-and-interesting-gaming)
+
+---
+
+<br>
+<br>
+<br>
+
 # Special Thanks
 
 A very special thanks goes out to [@Golan](https://twitter.com/golan) for inviting me out to his studio, [The STUDIO for Creative Inquiry at Carnegie Mellon](http://studioforcreativeinquiry.org/) during the [Spring of 2019](https://www.flickr.com/photos/creativeinquiry/albums/72157703188612302). It was during this residency that I was encouraged to begin integrating Handsfree.js into different libraries and where I had a chance to use Handsfree.js with a real UR5 robot!
