@@ -14,12 +14,12 @@
 
 <script>
 export default {
-  props: ["gotoDemo"],
+  props: ['gotoDemo'],
 
   mounted() {
-    const $script = document.createElement("script");
-    $script.src = "https://platform.twitter.com/widgets.js";
-    document.body.appendChild($script);
+    const $script = document.createElement('script')
+    $script.src = 'https://platform.twitter.com/widgets.js'
+    document.body.appendChild($script)
   },
 
   methods: {
@@ -32,19 +32,19 @@ export default {
           x: (ev.screenX - 0) / window.innerWidth,
           y: (ev.screenY - 100) / window.innerHeight
         }
-      });
-      window.handsfree = new Handsfree({ autostart: true });
+      })
+      window.handsfree = new Handsfree({ autostart: true })
 
       if (this.gotoDemo) {
-        window.handsfree.on("started", () => {
-          this.$router.push({ path: "/demos/" });
-        });
+        window.handsfree.on('started', () => {
+          this.$router.push({ path: '/demos/' })
+        })
       }
     },
 
     stopWebcam() {
-      window.handsfree.stop();
+      window.handsfree.stop()
     }
   }
-};
+}
 </script>
