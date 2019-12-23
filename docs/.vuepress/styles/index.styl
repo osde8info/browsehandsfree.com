@@ -1,8 +1,4 @@
 // Theme overrides
-// body .search-box input
-//   @media screen and (min-width: 820px)
-//     width 250px
-
 hr
   margin 40px 0
 
@@ -62,6 +58,8 @@ form
 
 .button
   display inline-block
+  border none
+  cursor pointer
   font-size 1.2rem
   color #fff
   background-color $accentColor
@@ -71,10 +69,16 @@ form
   transition background-color 0.1s ease
   box-sizing border-box
   border-bottom 1px solid darken($accentColor, 15%)
+  text-decoration none !important
+
+  &[disabled]
+    background-color lighten($accentColor, 30%)
+    cursor no-drop
+    &:hover
+      background-color lighten($accentColor, 30%)
 
   &:hover
     background lighten($accentColor, 15%)
-    text-decoration none !important
 
 // Columns
 .columns
@@ -95,6 +99,12 @@ form
       flex 0 100%
       padding 20px 0
 
+  h2
+    font-size 1.4rem
+    font-weight 500
+    border-bottom none
+    padding-bottom 0
+
 // Cards
 .card
   background $accentColor
@@ -113,3 +123,21 @@ form
 
     &:focus, &:focus + button
       border-color darken($accentColor, 30%)
+
+// Handsfree
+.handsfree-show-when-started
+  display none
+.handsfree-show-when-loading
+  display none
+
+.handsfree-loading
+  .handsfree-show-when-stopped
+    display none
+  .handsfree-show-when-loading
+    display initial
+
+.handsfree-started
+  .handsfree-show-when-stopped
+    display none
+  .handsfree-show-when-started
+    display initial
