@@ -20,7 +20,7 @@ meta:
   <div class="column">
     <h2>Demos and Experiments</h2>
     <p>Click the button below to explore our site handsfree and get an early glimpse of upcoming features that will be added to the Handsfree Chrome Extension and Handsfree.js.</p>
-    <ToggleWebcam />
+    <ToggleWebcam :gotoDemo=true />
   </div>
   <div class="column">
     <h2>Get Involved</h2>

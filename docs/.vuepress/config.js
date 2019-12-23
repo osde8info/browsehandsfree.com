@@ -10,14 +10,15 @@ module.exports = {
       "script",
       {
         src:
-          "https://cdn.jsdelivr.net/npm/canvas-confetti@1.0.0/dist/confetti.browser.min.js"
+          "https://cdn.jsdelivr.net/npm/canvas-confetti@0.5.0/dist/confetti.browser.min.js"
       }
-    ][
-      ("link",
+    ],
+    [
+      "link",
       {
         rel: "stylesheet",
         href: "https://unpkg.com/handsfree@6.1.4/dist/handsfree.css"
-      })
+      }
     ]
   ],
 
