@@ -28,8 +28,11 @@ module.exports = {
     nav: [
       { text: "Home", link: "/" },
       { text: "Chrome Extension", link: "/browser/" },
-      { text: "Handsfree.js", link: "/handsfreejs/" },
+      { text: "Handsfree.js", link: "/code/" },
+      { text: "Demos", link: "/demos/" },
       { text: "Get Involved", link: "/get-involved/" }
-    ]
+    ],
+
+    sidebar: ["/", "/getting-started/", "/demos/"]
   }
 };

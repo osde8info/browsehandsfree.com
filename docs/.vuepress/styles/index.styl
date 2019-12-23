@@ -59,7 +59,7 @@ form
     color #fff
     font-weight bold
 
-.button
+.button, button
   display inline-block
   border none
   cursor pointer
@@ -75,10 +75,11 @@ form
   text-decoration none !important
 
   &[disabled]
-    background-color lighten($accentColor, 30%)
+    background-color lighten($accentColor, 50%)
+    border-bottom 1px solid lighten($accentColor, 35%)
     cursor no-drop
     &:hover
-      background-color lighten($accentColor, 30%)
+      background-color lighten($accentColor, 50%)
 
   &:hover
     background lighten($accentColor, 15%)
@@ -120,6 +121,8 @@ form
   button
     background darken($accentColor, 20%)
     border-color darken($accentColor, 20%)
+    font-size .9em
+    padding 0
 
   input
     border-color darken($accentColor, 20%)

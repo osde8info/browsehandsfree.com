@@ -7,7 +7,7 @@
       loading...
     </button>
     <button class="button handsfree-show-when-started" @click="stopWebcam">
-      Stop Webcam
+      Stop Webcam ⬜
     </button>
   </span>
 </template>
