@@ -4,7 +4,7 @@ module.exports = {
     'Learn how to browse the web handsfree with our Handsfree Chrome Extension or create your own experiences with our library, Handsfree.js 👋',
 
   head: [
-    ['link', { rel: 'icon', href: './favicon.png' }],
+    ['link', { rel: 'icon', href: '/favicon.png' }],
     ['script', { src: 'https://unpkg.com/handsfree@6.1.4/dist/handsfree.js' }],
     [
       'script',
@@ -22,6 +22,7 @@ module.exports = {
     ]
   ],
 
+  extend: '@vuepress/theme-default',
   themeConfig: {
     logo: '/favicon.png',
 

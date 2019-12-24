@@ -118,6 +118,9 @@ form
   border-radius 3px
   box-shadow 1px 1px 3px rgba(0,0,0,0.35)
 
+  a
+    color $accentSecondary
+  
   button
     background darken($accentColor, 20%)
     border-color darken($accentColor, 20%)
@@ -147,3 +150,22 @@ form
     display none
   .handsfree-show-when-started
     display initial
+  .handsfree-show-when-stopped-or-loading
+    display none
+
+// Helpers
+.text-center
+  text-align center
+.text-left
+  text-align left
+
+.mr-1
+  margin-right 5px
+.mr-2
+  margin-right 10px
+.mr-3
+  margin-right 15px
+
+// Misc
+.twitter-tweet
+  width 100% !important

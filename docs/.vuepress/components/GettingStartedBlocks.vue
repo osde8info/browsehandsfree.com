@@ -17,9 +17,9 @@
         wrapper around computer vision models for the purpose of interacting
         with the web handsfree.
       </p>
-      <a class="button" href="https://handsfree.js.org"
-        >Code with Handsfree.js</a
-      >
+      <router-link class="button" :to="{ path: '/code' }">
+        Code with Handsfree.js
+      </router-link>
     </div>
     <div class="column">
       <h2>Demos and Experiments</h2>
