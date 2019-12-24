@@ -37,9 +37,10 @@ export default {
       const bounds = this.$refs.animatedLogoWrap.getBoundingClientRect()
 
       window.confetti({
-        startVelocity: 35,
+        startVelocity: 20,
         spread: 360,
-        particleCount: 1000,
+        ticks: 60,
+        particleCount: 500,
         origin: {
           x: (bounds.left + 100) / window.innerWidth,
           y: (bounds.top + 75) / window.innerHeight
