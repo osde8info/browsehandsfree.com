@@ -20,11 +20,42 @@ title: Handsfree.js
         <img src="https://i.imgur.com/KqlnNuA.png" height=30>
       </a>
     </p>
+  </div>
+  <div class="column">
+    <iframe style="margin-top: 40px; max-width: 100%" width="480" height="240" src="https://www.youtube.com/embed/ty081LCcYpc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p>
       <small>With support from the <a href="https://www.cmu.edu/cfa/studio/index.html">STUDIO for Creative Inquiry</a>, <a href="https://glitch.com/@handsfreejs">Glitch.com</a>, the <a href="https://youtu.be/CJDpF4xUieY?t=58">School of AI</a>, and <a href="https://patreon.com/heyozramos">you</a>!</small>
     </p>
   </div>
-  <div class="column">
-    <iframe style="margin-top: 40px; max-width: 100%" width="480" height="240" src="https://www.youtube.com/embed/ty081LCcYpc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
 </div>
+
+---
+
+## Quickstart
+
+<!-- prettier-ignore-start -->
+```html
+<!DOCTYPE html>
+<head>
+  <!-- Require dependencies -->
+  <script src="https://unpkg.com/handsfree@6.1.4/dist/handsfree.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/handsfree@6.1.4/dist/handsfree.css">
+</head>
+<body>
+  <script>
+    // Create a new instance. Use one instance for each camera
+    const handsfree = new Handsfree({})
+
+    // Create a plugin that console logs whenever you smile
+    Handsfree.use('consoleLogger', ({ head }) => {
+      if (head.state.eyeRightClosed) {
+        console.log('😉')
+      }
+    })
+
+    // Start tracking
+    handsfree.start()
+  </script>
+</body>
+```
+<!-- prettier-ignore-end -->

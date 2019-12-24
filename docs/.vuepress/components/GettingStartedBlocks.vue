@@ -6,9 +6,7 @@
         The Handsfree Chrome Extension is designed to help you browse the web
         completely handsfree. The extension requires little to no calibration
         and will be available for the
-        <a
-          href="https://www.google.com/chrome/"
-        >Google Chrome browser</a>.
+        <a href="https://www.google.com/chrome/">Google Chrome browser</a>.
       </p>
       <button disabled>coming very soon!</button>
     </div>
@@ -19,7 +17,9 @@
         wrapper around computer vision models for the purpose of interacting
         with the web handsfree.
       </p>
-      <a class="button" href="/code/">Code with Handsfree.js</a>
+      <router-link class="button" :to="{ path: '/code' }">
+        Code with Handsfree.js
+      </router-link>
     </div>
     <div class="column">
       <h2>Demos and Experiments</h2>
