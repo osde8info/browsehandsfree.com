@@ -22,6 +22,15 @@ module.exports = {
     ]
   ],
 
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        ga: 'UA-155013240-1'
+      }
+    ]
+  ],
+
   extend: '@vuepress/theme-default',
   themeConfig: {
     logo: '/favicon.png',
@@ -38,7 +47,23 @@ module.exports = {
       '/',
       '/getting-started/',
       '/browser/',
-      '/code/',
+      {
+        title: 'Handsfree.js',
+        path: '/code/',
+        children: [
+          '/code/getting-started/',
+          '/code/config/',
+          '/code/head/',
+          '/code/body/',
+          '/code/plugins/',
+          '/code/methods/',
+          '/code/classes/',
+          '/code/properties/',
+          '/code/events/',
+          '/code/client-mode/'
+        ],
+        collapsable: false
+      },
       '/demos/',
       '/get-involved/'
     ]
