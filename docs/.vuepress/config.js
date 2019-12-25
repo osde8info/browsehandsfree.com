@@ -38,7 +38,23 @@ module.exports = {
       '/',
       '/getting-started/',
       '/browser/',
-      '/code/',
+      {
+        title: 'Handsfree.js',
+        path: '/code/',
+        children: [
+          '/code/getting-started/',
+          '/code/config/',
+          '/code/head/',
+          '/code/body/',
+          '/code/methods/',
+          '/code/properties/',
+          '/code/plugins/',
+          '/code/events/',
+          '/code/classes/',
+          '/code/client-mode/'
+        ],
+        collapsable: false
+      },
       '/demos/',
       '/get-involved/'
     ]

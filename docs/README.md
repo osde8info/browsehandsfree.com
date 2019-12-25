@@ -46,6 +46,9 @@ footer: Apache 2.0 Licensed | Copyright © 2019-present Oz Ramos
   <div class="feature">
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What Oz is building on Glitch these days is just mind-bending. So cool, and I can’t wait to see what people remix this into! <a href="https://t.co/h3iz5h0L1c">https://t.co/h3iz5h0L1c</a></p>&mdash; Anil Dash 🥭 (@anildash) <a href="https://twitter.com/anildash/status/1208417855852679168?ref_src=twsrc%5Etfw">December 21, 2019</a></blockquote>
   </div>
+  <div class="feature">
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Exploring some more Instagram-like filters with <a href="https://twitter.com/hashtag/TensorFlow?src=hash&amp;ref_src=twsrc%5Etfw">#TensorFlow</a> <a href="https://twitter.com/hashtag/BodyPix?src=hash&amp;ref_src=twsrc%5Etfw">#BodyPix</a> <a href="https://twitter.com/glitch?ref_src=twsrc%5Etfw">@Glitch</a><br><br>Demo: <a href="https://t.co/1MJ6HFKWCQ">https://t.co/1MJ6HFKWCQ</a><br>Source: <a href="https://t.co/M1IaaY5hKR">https://t.co/M1IaaY5hKR</a> <a href="https://t.co/TvjexbtNtX">pic.twitter.com/TvjexbtNtX</a></p>&mdash; Oz Ramos (@HeyOzRamos) <a href="https://twitter.com/HeyOzRamos/status/1209584884768837632?ref_src=twsrc%5Etfw">December 24, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
 </div>
 
 <TweetLoader />
