@@ -1,5 +1,8 @@
 ---
 title: Client Mode
+
+image: https://i.imgur.com/vL0EmoR.jpg
+description: Learn what client mode is and how you can use it to use Handsfree.js in environments outside the browser
 ---
 
 # Client Mode

@@ -1,5 +1,8 @@
 ---
 title: Classes
+
+image: https://i.imgur.com/vL0EmoR.jpg
+description: Check out the different classes that are for styling your handsfree plugins!
 ---
 
 # Classes

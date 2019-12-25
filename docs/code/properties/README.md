@@ -1,5 +1,8 @@
 ---
 title: Properties
+
+image: https://i.imgur.com/vL0EmoR.jpg
+description: Check out the different properties available on your handsfree instance
 ---
 
 # Properties
