@@ -28,12 +28,17 @@ module.exports = {
       {
         ga: 'UA-155013240-1'
       }
-    ]
+    ],
+    ['vuepress-plugin-seo']
   ],
 
   extend: '@vuepress/theme-default',
   themeConfig: {
     logo: '/favicon.png',
+    lastUpdated: 'Last Updated',
+
+    author: { name: 'Oz Ramos', twitter: '@HeyOzRamos' },
+    domain: 'https://browsehandsfree.com',
 
     nav: [
       { text: 'Home', link: '/' },

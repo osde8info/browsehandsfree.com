@@ -6,6 +6,9 @@ tagline: use your webcam to control your browser handsfree
 actionText: Getting Started
 actionLink: /getting-started/
 footer: Apache 2.0 Licensed | Copyright © 2019-present Oz Ramos
+
+description: Use your webcam to control your browser handsfree 👋 Explore our docs for Handsfree.js and the Handsfree Chrome Extension, try our demos, and get involved!
+image: https://i.imgur.com/vL0EmoR.jpg
 ---
 
 ::: warning Coming Soon 📅
