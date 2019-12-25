@@ -22,6 +22,15 @@ module.exports = {
     ]
   ],
 
+  plugins: [
+    [
+      '@vuepress/google-analytics',
+      {
+        ga: 'UA-155013240-1'
+      }
+    ]
+  ],
+
   extend: '@vuepress/theme-default',
   themeConfig: {
     logo: '/favicon.png',
