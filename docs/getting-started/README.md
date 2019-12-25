@@ -1,8 +1,8 @@
 ---
 title: Getting Started
-meta:
-  - name: description
-    content: Learn about the Handsfree Chrome Extension and Handsfree.js and how to get started with each
+
+image: https://i.imgur.com/vL0EmoR.jpg
+description: Learn about the Handsfree Chrome Extension and Handsfree.js, explore some demos, or learn how to get involved!
 ---
 
 # Getting Started

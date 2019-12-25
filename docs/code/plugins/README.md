@@ -1,5 +1,8 @@
 ---
 title: Plugins
+
+image: https://i.imgur.com/vL0EmoR.jpg
+description: Come learn how to quickly build functionality around the pose data and gestures, while mixing-and-matching multiple models together!
 ---
 
 # Plugins

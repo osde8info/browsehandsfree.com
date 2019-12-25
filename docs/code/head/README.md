@@ -1,5 +1,8 @@
 ---
 title: The Head
+
+image: https://i.imgur.com/vL0EmoR.jpg
+description: Come learn how to use the Head tracker (through Jeeliz FaceFilter) to capture head pose, face morphs, and gestures from one or many users!
 ---
 
 # The Head

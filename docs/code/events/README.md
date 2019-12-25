@@ -1,5 +1,8 @@
 ---
 title: Events
+
+image: https://i.imgur.com/vL0EmoR.jpg
+description: Check out the different events that are triggered while using Handsfree.js
 ---
 
 # Events
