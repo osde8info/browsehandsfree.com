@@ -46,11 +46,11 @@ module.exports = {
           '/code/config/',
           '/code/head/',
           '/code/body/',
-          '/code/methods/',
-          '/code/properties/',
           '/code/plugins/',
-          '/code/events/',
+          '/code/methods/',
           '/code/classes/',
+          '/code/properties/',
+          '/code/events/',
           '/code/client-mode/'
         ],
         collapsable: false

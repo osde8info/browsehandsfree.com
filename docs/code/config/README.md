@@ -1,3 +1,9 @@
+---
+title: Config
+---
+
+# Config
+
 The following is a list of possible config options to pass into `new Handsfee()`. The values listed below are the defaults, or skip to the end for some example uses.
 
 ## Config Defaults

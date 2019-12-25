@@ -1,8 +1,8 @@
 ---
-title: Config
+title: Getting Started
 ---
 
-# Overview
+# Getting Started
 
 Handsfree.js is a thin wrapper around popular computer vision libraries: we handle the initialization code, which is different from model to model, and provide a single "[game loop](https://en.wikipedia.org/wiki/Game_programming#Game_structure)" for all running models to share.
 
@@ -50,19 +50,18 @@ This will add the `Handsfree` class to the global `window` namespace.
 
 If you'd like to use Handsfree.js from within Node (eg for desktop control) or would like to bundle Handsfree.js as a dependency to your project then first add Handsfree.js to your project:
 
-```bash`
+```bash
 npm install handsfree
-
 # or
-
 yarn handsfree
-
-````
+```
 
 Then, `import` or `require` Handsfree:
 
 ```js
 import Handsfree from 'handsfree'
-````
+```
 
-🐞 Currently this will still add `Handsfree` to the global window. This will be fixed soon!
+::: danger 🐞 Bug
+Currently this will still add `Handsfree` to the global window instead of just a module. This will be fixed soon!
+:::
