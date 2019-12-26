@@ -8,6 +8,10 @@ module.exports = {
     ['script', { src: 'https://unpkg.com/handsfree@6.1.4/dist/handsfree.js' }],
     [
       'script',
+      { src: 'https://www.googletagmanager.com/gtag/js?id=UA-155013240-1' }
+    ],
+    [
+      'script',
       {
         src:
           'https://cdn.jsdelivr.net/npm/canvas-confetti@0.5.0/dist/confetti.browser.min.js'
@@ -22,15 +26,7 @@ module.exports = {
     ]
   ],
 
-  plugins: [
-    [
-      '@vuepress/google-analytics',
-      {
-        ga: 'UA-155013240-1'
-      }
-    ],
-    ['vuepress-plugin-seo']
-  ],
+  plugins: [['vuepress-plugin-seo']],
 
   extend: '@vuepress/theme-default',
   themeConfig: {
