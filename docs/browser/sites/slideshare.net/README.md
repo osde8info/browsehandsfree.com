@@ -13,7 +13,7 @@ description: Learn how to use SlideShare handsfree with the Handsfree Chrome Ext
 
 <div class="columns">
   <div class="column">
-    <p><img src="./slideshare.png"></p>
+    <p><a href="https://www.slideshare.net"><img src="./slideshare.png"></a></p>
     <p>Discover, Share, and Present presentations and infographics with the world's largest professional content sharing community.</p>
     <h2>Handsfree Features</h2>
     <ul>

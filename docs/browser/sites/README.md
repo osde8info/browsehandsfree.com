@@ -11,6 +11,8 @@ The Face Pointer is available on most sites you visit, but for many of them you'
 
 Explore our catalog of sites and their special features below:
 
+---
+
 <div class="columns">
   <div class="column">
     <router-link to="/browser/sites/slideshare.net"><img src="./slideshare.net/slideshare.png" height=40></router-link>
