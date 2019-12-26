@@ -51,7 +51,12 @@ module.exports = {
     sidebar: [
       '/',
       '/getting-started/',
-      '/browser/',
+      {
+        title: 'Chrome Extension',
+        path: '/browser/',
+        children: ['/browser/sites/'],
+        collapsable: false
+      },
       {
         title: 'Handsfree.js',
         path: '/code/',

@@ -49,7 +49,7 @@ description: Handsfree.js is a thin wrapper around popular computer vision model
     // Create a new instance. Use one instance for each camera
     const handsfree = new Handsfree({})
 
-    // Create a plugin that console logs whenever you smile
+    // Create a plugin that console logs whenever you wink with your right eye
     Handsfree.use('consoleLogger', ({ head }) => {
       if (head.state.eyeRightClosed) {
         console.log('😉')
