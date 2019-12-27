@@ -1,7 +1,7 @@
 ---
 title: SlideShare
 
-image: https://i.imgur.com/vL0EmoR.jpg
+image: /browsehandsfree-cover.jpg
 description: Learn how to use SlideShare handsfree with the Handsfree Chrome Extension!
 ---
 

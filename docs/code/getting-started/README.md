@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 
-image: https://i.imgur.com/vL0EmoR.jpg
+image: /browsehandsfree-cover.jpg
 description: Come learn how to setup Handsfree.js through CDN or through NPM, so that you can get started on making handsfree experiences and assistive tech!
 ---
 

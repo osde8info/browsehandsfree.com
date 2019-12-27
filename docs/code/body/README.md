@@ -1,7 +1,7 @@
 ---
 title: The Body
 
-image: https://i.imgur.com/vL0EmoR.jpg
+image: /browsehandsfree-cover.jpg
 description: Come learn how to use TensorFlow's BodyPix model within Handsfree.js to get user segmentation and body pose estimation!
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Config
 
-image: https://i.imgur.com/vL0EmoR.jpg
+image: /browsehandsfree-cover.jpg
 description: Come learn how to configure Handsfree.js for use with head and eye tracking, segmentation and pose estimation, eye tracking and more (as they're implemented 😅)!
 ---
 

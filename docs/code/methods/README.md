@@ -1,7 +1,7 @@
 ---
 title: Methods
 
-image: https://i.imgur.com/vL0EmoR.jpg
+image: /browsehandsfree-cover.jpg
 description: Check out the different methods and helpers that are available to help you create handsfree experiences and assistive tech.
 ---
 

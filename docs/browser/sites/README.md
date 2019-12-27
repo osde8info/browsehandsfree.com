@@ -1,7 +1,7 @@
 ---
 title: Sites
 
-image: https://i.imgur.com/vL0EmoR.jpg
+image: /browsehandsfree-cover.jpg
 description: Explore our catalog of handsfree interfaces for specific sites, including watching YouTube 360 videos and changing slides on SlideShare
 ---
 
