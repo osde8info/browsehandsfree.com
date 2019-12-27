@@ -3,7 +3,7 @@ home: true
 heroImage: https://i.imgur.com/lBdg97f.gif
 heroText: BrowseHandsfree
 tagline: use your webcam to control your browser handsfree
-actionText: Getting Started
+actionText: Learn More 📚
 actionLink: /getting-started/
 footer: Apache 2.0 Licensed | Copyright © 2019-present Oz Ramos
 
@@ -12,7 +12,7 @@ image: https://i.imgur.com/vL0EmoR.jpg
 ---
 
 ::: warning Coming Soon 📅
-**12/21** - This site is still in the works. Our plan is to officially launch on January 1st, 2020. Follow me on [Twitter @HeyOzRamos](https://twitter.com/heyozramos)
+**12/26** - This site is still in the works. Our plan is to officially launch on January 1st, 2020. Follow me on [Twitter @HeyOzRamos](https://twitter.com/heyozramos)
 :::
 
 <!-- Features section -->
