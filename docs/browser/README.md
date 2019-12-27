@@ -5,7 +5,7 @@ title: Chrome Extension
 # Handsfree Chrome Extension
 
 ::: warning 📅 Launching Soon
-12/25/19 - This page is still under development but we'll be ready by Jan 1st!
+12/26/19 - This page is still under development but we'll be ready by Jan 1st!
 :::
 
 <div class="columns">
