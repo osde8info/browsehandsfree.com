@@ -17,6 +17,9 @@ title: Chrome Extension
       <a href="https://github.com/handsfreejs/handsfree"><img class="mr-1" src="https://img.shields.io/github/stars/handsfreejs/handsfree-chrome?style=social"></a>
     </p>
     <p class="text-left">A Google Chrome Extension that lets you control your browser handsfree through face, hand gestures, and voice.</p>
+    <p>
+      <button disabled>Coming soon</button>
+    </p>
     <p><small>Powered by:</small></p>
     <p>
       <a class="mr-3" href="https://github.com/jeeliz/jeelizWeboji">
