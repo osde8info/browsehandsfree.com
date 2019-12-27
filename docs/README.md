@@ -21,16 +21,25 @@ image: https://i.imgur.com/vL0EmoR.jpg
     <img src="./patreon-tier-1.png">
     <h2>Explore the web with face and hand gestures...</h2>
     <p>Move your head to move a red pointer and use face and hand gestures to click and interact with page elements</p>
+    <p class="text-center">
+      <button disabled>Coming Soon</button>
+    </p>
   </div>
   <div class="feature">
     <img src="./patreon-tier-2.png">
     <h2>...or design your own handsfree experiences...</h2>
     <p>Use JavaScript to quickly design your own handsfree games and experiences and deploy them everywhere</p>
+    <p class="text-center">
+      <router-link class="button" to='/code/'>Code with Handsfree.js</router-link>
+    </p>
   </div>
   <div class="feature">
     <img src="./patreon-tier-3.png">
     <h2>...everything is free and <a href="https://github.com/handsfreejs">open sourced</a>!</h2>
-    <p><a href="https://patreon.com/heyozramos">Support us on Patreon</a> to unlock backups, access beta features, subscribe to our special newsletter and more</p>
+    <p><a href="https://patreon.com/heyozramos">Support these projects on Patreon</a> to access beta features, private chat and forums, and more!</p>
+    <p class="text-center">
+      <a class="button" href='https://patreon.com/heyozramos'>Support us on Patreon</a>
+    </p>
   </div>
 </div>
 
