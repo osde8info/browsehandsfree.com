@@ -29,7 +29,7 @@ image: https://i.imgur.com/vL0EmoR.jpg
   </div>
   <div class="feature">
     <img src="./patreon-tier-3.png">
-    <h2>...everything is free and <a href="https://github.com/handsfreejs/browsehandsfree.com">open sourced</a>!</h2>
+    <h2>...everything is free and <a href="https://github.com/handsfreejs">open sourced</a>!</h2>
     <p><a href="https://patreon.com/heyozramos">Support us on Patreon</a> to unlock backups, access beta features, subscribe to our special newsletter and more</p>
   </div>
 </div>
