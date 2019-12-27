@@ -1,7 +1,7 @@
 ---
 title: Handsfree.js
 
-image: https://i.imgur.com/vL0EmoR.jpg
+image: /browsehandsfree-cover.jpg
 description: Handsfree.js is a thin wrapper around popular computer vision models for the purpose of interacting with pages handsfree. Come learn how to get started 👋
 ---
 
