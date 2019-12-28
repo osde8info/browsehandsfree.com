@@ -1,5 +1,8 @@
 ---
 title: Chrome Extension
+
+image: /browsehandsfree-cover.jpg
+description: The Handsfree Chrome Extension helps you control your browser handsfree through face and hand gestures and voice. Come learn more about it 👋
 ---
 
 # Handsfree Chrome Extension
