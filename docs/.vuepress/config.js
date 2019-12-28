@@ -41,7 +41,8 @@ module.exports = {
       { text: 'Chrome Extension', link: '/browser/' },
       { text: 'Handsfree.js', link: '/code/' },
       { text: 'Demos', link: '/demos/' },
-      { text: 'Get Involved', link: '/get-involved/' }
+      { text: 'Get Involved', link: '/get-involved/' },
+      { text: 'About', link: '/about/' }
     ],
 
     sidebar: [
@@ -56,6 +57,7 @@ module.exports = {
       {
         title: 'Handsfree.js',
         path: '/code/',
+        collapsable: false,
         children: [
           '/code/getting-started/',
           '/code/config/',
@@ -67,11 +69,16 @@ module.exports = {
           '/code/properties/',
           '/code/events/',
           '/code/client-mode/'
-        ],
-        collapsable: false
+        ]
       },
       '/demos/',
-      '/get-involved/'
+      '/get-involved/',
+      {
+        title: 'About',
+        path: '/about/',
+        collapsable: false,
+        children: ['/about/privacy-policy/']
+      }
     ]
   }
 }
