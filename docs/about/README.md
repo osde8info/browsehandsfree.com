@@ -11,6 +11,13 @@ description: BrowseHandsfree's goal is to start a community of developers and ex
 12/27/19 - We're still getting this site started, please check back soon!
 :::
 
+<div class="card">
+  <h2>Our Mission and Vision Statement</h2>
+  <p><strong>Mission:</strong> Help anyone watch videos, play games, use social media, do work, create content, and browse the web handsfree through face and hand gestures and voice</p>
+  <p><strong>Vision:</strong> A world were anyone can become a digital content creator handsfree</p>
+  <p><strong>Mantra:</strong> Do anything handsfree</p>
+</div>
+
 <div class="columns">
   <div class="column">
     <h2>Privacy Policy</h2>
