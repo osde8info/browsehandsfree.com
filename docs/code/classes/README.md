@@ -25,4 +25,8 @@ The following are some helpers you can add to your elements:
 
 /* Show while loading */
 .handsfree-show-when-loading
+
+/* Hide during different states */
+.handsfree-show-when-stopped
+.handsfree-show-when-started
 ```

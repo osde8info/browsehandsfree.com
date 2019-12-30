@@ -14,17 +14,14 @@ description: BrowseHandsfree's goal is to start a community of developers and ex
 <div class="columns">
   <div class="column">
     <h2>Privacy Policy</h2>
-    <p>Your privacy is super important to us, especially considering our focus on the webcam. Come check out our evolving Privacy Policy.</p>
+    <p>Your privacy is super important to us, especially considering how much we leverage computer vision. <strong>Please read our evolving Privacy Policy.</strong></p>
     <router-link class="button" to="/about/privacy-policy/">Learn more</router-link>
   </div>
+  <div class="column">
+    <h2>Pitch Decks</h2>
+    <p>Come flip through our pitch decks to get a quick overview of the impact that we're trying to make and how we plan to make it!</p>
+    <router-link class="button" to="/about/pitch-decks/">View our pitch decks</router-link>
+  </div>
+  <div class="column">
+  </div>
 </div>
-
-## SlideShares
-
-<br>
-<br>
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/6WtgPmQMO67D0z" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-
-<br>
-<br>
-<iframe src="//www.slideshare.net/slideshow/embed_code/key/tDkWHhYy3ffXO9" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>

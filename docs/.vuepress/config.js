@@ -77,7 +77,7 @@ module.exports = {
         title: 'About',
         path: '/about/',
         collapsable: false,
-        children: ['/about/privacy-policy/']
+        children: ['/about/privacy-policy/', '/about/pitch-decks/']
       }
     ]
   }

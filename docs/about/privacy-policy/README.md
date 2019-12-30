@@ -9,7 +9,7 @@ description: Privacy is super important to us, especially considering that our H
 
 ## The Gist
 
-- We use Google Analytics on this site to monitor traffic
+- We use Google Analytics on this site to see how much traffic we're getting
   - We do not use analytics or trackers of any kind - including Google Analytics - within the Handsfree Chrome Extension
 - We do not look at, transmit, or store the webcam feed in whole or in parts
   - All inference (computer vision) is done within your browser
