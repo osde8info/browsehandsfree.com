@@ -8,7 +8,7 @@ description: BrowseHandsfree's goal is to start a community of developers and ex
 # About Us
 
 ::: warning Coming Soon
-12/27/19 - We're still getting this site started, please check back soon!
+1/9/20 - We're still getting this site started, please check back soon!
 :::
 
 <div class="card">

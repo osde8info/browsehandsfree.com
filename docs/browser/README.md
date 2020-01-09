@@ -8,7 +8,7 @@ description: The Handsfree Chrome Extension helps you control your browser hands
 # Handsfree Chrome Extension
 
 ::: warning 📅 Launching Soon
-12/26/19 - This page is still under development but we'll be ready by Jan 1st!
+1/9/20 - This page is still under development but we'll be ready by February!
 :::
 
 <div class="columns">

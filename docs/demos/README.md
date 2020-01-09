@@ -5,7 +5,7 @@ title: Demos and Experiments
 # Demos and Experiments
 
 ::: warning Coming Soon
-12/26/19 - The demos are coming soon, but you can try the face pointer below!
+1/9/20 - The demos are coming soon, but you can try the face pointer below!
 :::
 
 <div class="columns">
