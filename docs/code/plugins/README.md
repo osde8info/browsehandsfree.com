@@ -29,6 +29,9 @@ For more control, you can pass a object instead of a callback with the following
 
 ```js
 Handsfree.use(name, {
+  // A list of overridable properties
+  config: {},
+
   // (default: true) Whether this plugin should be enabled
   enabled: true,
 
@@ -51,6 +54,26 @@ Handsfree.use('demo', {
     console.log(head.state.smirk)
   }
 })
+```
+
+## Updating configs
+
+You can update the initial config objects as follows:
+
+```js
+// Override the default for the "head.click" plugin
+handsfree = new Handsfree({
+  plugin: {
+    head: {
+      click: {
+        throttle: 1000
+      }
+    }
+  }
+})
+
+// Update it after runtime, note the ".config."
+Handsfree.plugins.head.click.config.throttle = 50
 ```
 
 ## Overwriting and disabling plugins
@@ -95,17 +118,4 @@ new Handsfree({
     }
   }
 }
-```
-
-### Methods
-
-```js
-/**
- * Sets how often a click is registered, in milliseconds
- * - Use this method to update the throttle, manually setting
- *   Handsfree.plugins.head.click.config.throttle won't work
- *
- * @param {Integer} throttle How often to register a click, in milliseconds
- */
-Handsfree.plugins.head.click.updateClickThrottle(throttle)
 ```
