@@ -10,6 +10,7 @@ export default ({
   window.dataLayer = window.dataLayer || []
   function gtag() {
     dataLayer.push(arguments)
+    console.log('GTAG')
   }
   gtag('js', new Date())
   gtag('config', 'UA-155013240-1')
