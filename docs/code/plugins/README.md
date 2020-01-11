@@ -63,3 +63,49 @@ Handsfree.enable(pluginName)
 ```
 
 If a plugin has an `onDisable` or `onEnable` method, then these will now be called.
+
+---
+
+# Plugins List
+
+## `head.click`
+
+### Config
+
+```js
+new Handsfree({
+  plugin: {
+    head: {
+      click: {
+        // How often in milliseconds to trigger clicks
+        // - Use 0 to run as often as possible
+        throttle: 50,
+
+        // Max number of frames to keep down
+        // - Setting this to a higher number fires this many clicks in a row
+        // - Use to help make clicking on small elements easier, but multiple clicks may be triggered
+        maxMouseDownedFrames: 1,
+
+        // Morphs to watch for and their required confidences
+        morphs: {
+          0: 0.25,
+          1: 0.25
+        }
+      }
+    }
+  }
+}
+```
+
+### Methods
+
+```js
+/**
+ * Sets how often a click is registered, in milliseconds
+ * - Use this method to update the throttle, manually setting
+ *   Handsfree.plugins.head.click.config.throttle won't work
+ *
+ * @param {Integer} throttle How often to register a click, in milliseconds
+ */
+Handsfree.plugins.head.click.updateClickThrottle(throttle)
+```

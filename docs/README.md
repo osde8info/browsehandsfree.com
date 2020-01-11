@@ -61,6 +61,9 @@ image: /browsehandsfree-cover.jpg
   <div class="feature">
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here&#39;s a walkthrough on how to use SlideShare handsfree with the Handsfree Chrome Extension!<br><br>Use the face pointer to focus the slides, then use hands to transition through them. Cross arms to unfocus slides and go back to Face Pointer mode. <a href="https://t.co/DRqZaNohsY">pic.twitter.com/DRqZaNohsY</a></p>&mdash; Oz Ramos (@HeyOzRamos) <a href="https://twitter.com/HeyOzRamos/status/1209960821574389760?ref_src=twsrc%5Etfw">December 25, 2019</a></blockquote>
   </div>
+  <div class="feature">
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Finally solved scrolling on sites with multiple scrollbars!<br><br>This worfklow demonstrates:<br>- Hovering over a scroll area to focus it<br>- Scrolling the scroll area<br>- Changing tabs <a href="https://t.co/RlbhUelQDG">pic.twitter.com/RlbhUelQDG</a></p>&mdash; Oz Ramos (@HeyOzRamos) <a href="https://twitter.com/HeyOzRamos/status/1211091013923524609?ref_src=twsrc%5Etfw">December 29, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
 </div>
 
 <TweetLoader />
