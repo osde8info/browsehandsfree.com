@@ -16,33 +16,36 @@ let config = {
   // Whether Handsfree should automatically start after instantiation
   autostart: false,
 
+  // Whether to run this instance in "client mode": models aren't loaded and no inference
+  isClient: false,
+
+  // Represents the video feed and it's debug canvases
   debugger: {
     // Where to inject the debugger into
     target: document.body,
-
-    // Whether to show or hide the debugger (video feedback)
     enabled: false
   },
 
-  // Which models you want to use
+  // Represents the calibrator settings
+  calibrator: {
+    // (optional) The target element to act as the calibrator wrapping div
+    target: null,
+    // The message to display over the marker, can be HTML
+    instructions: 'Point head towards center of circle below',
+    // (optional if .target === null, otherwise required) The target element to act as the calibrator target (should be inside target)
+    marker: null
+  },
+
   models: {
     head: {
       enabled: true,
-
-      // Run this model every x milliseconds (use 0 for every frame)
       throttle: 0
     },
     bodypix: {
       enabled: false,
-
-      // Run this model every x milliseconds (use 0 for every frame)
       throttle: 0,
-
-      // The inference method to use: ['segmentPerson', 'segmentPersonParts', 'segmentMultiPerson', 'segmentMultiPersonParts']
       method: 'segmentPerson',
-      // The method to use to display debugging: ['toMask', 'toColoredPartMask']
       debugMethod: 'toMask',
-      // @see https://github.com/tensorflow/tfjs-models/tree/master/body-pix#loading-the-model
       modelConfig: {
         architecture: 'MobileNetV1',
         outputStride: 16,
@@ -52,45 +55,6 @@ let config = {
     }
   },
 
-  // Configs specific to plugins
-  plugin: {
-    head: {
-      pointer: {
-        // How many pixels to shift the pointer by
-        offset: {
-          x: 0,
-          y: 0
-        },
-
-        // A multiplier that determines how sensitive the pointer is
-        // .5 is half as sensitive, 2 is twice as much
-        speed: {
-          x: 1,
-          y: 1
-        }
-      }
-    },
-
-    click: {
-      // Morphs to watch for and their required confidences
-      morphs: {
-        // Right smile (pass 0 to disable this)
-        0: 0.5,
-        // Left smile (pass 0 to disable this)
-        1: 0.5
-      }
-    },
-
-    vertScroll: {
-      // The multiplier to scroll by. Lower numbers are slower
-      scrollSpeed: 0.15,
-      // How many pixels from the the edge to scroll
-      scrollZone: 100
-    }
-  },
-
-  // Head morph activations
-  // @see https://github.com/handsfree.js/handsfree/wiki/Head
   head: {
     morphs: {
       threshold: {

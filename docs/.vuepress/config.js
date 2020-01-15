@@ -68,6 +68,7 @@ module.exports = {
           '/code/classes/',
           '/code/properties/',
           '/code/events/',
+          '/code/calibrating/',
           '/code/client-mode/'
         ]
       },
