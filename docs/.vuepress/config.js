@@ -51,7 +51,7 @@ module.exports = {
       {
         title: 'Chrome Extension',
         path: '/browser/',
-        children: ['/browser/sites/'],
+        children: ['/browser/calibrating/', '/browser/sites/'],
         collapsable: false
       },
       {
