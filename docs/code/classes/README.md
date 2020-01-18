@@ -29,4 +29,7 @@ The following are some helpers you can add to your elements:
 /* Hide during different states */
 .handsfree-show-when-stopped
 .handsfree-show-when-started
+
+/* During calibration */
+.handsfree-calibrating
 ```

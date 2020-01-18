@@ -93,7 +93,11 @@ If a plugin has an `onDisable` or `onEnable` method, then these will now be call
 
 ## `head.click`
 
-### Config
+This plugin adds native clicking through gestures like smiling.
+
+Use the `.throttle` config to set how frequently a user can click in milliseconds; `.throttle = 1000` means that a click is only allowed once every second. By default this is set to 50 milliseconds to help avoid firing lots of clicks due to noise.
+
+`.maxMouseDownedFrames` sets how many frames in a row to fire a click event. A higher value (say, 3 or 5) will allow you to "sweep" a click into a small link or button (clicking outside and dragging into the link/button).
 
 ```js
 new Handsfree({
@@ -114,6 +118,25 @@ new Handsfree({
           0: 0.25,
           1: 0.25
         }
+      }
+    }
+  }
+}
+```
+
+## `head.ghostedPointer`
+
+**Disabled by default**. This plugin hides the pointer when it has not moved more than `.distToReset` pixels after `.numFramesToGhost` milliseconds.
+
+```js
+new Handsfree({
+  plugin: {
+    head: {
+      ghostedPointer: {
+        // Number of frames held to ghost a pointer
+        numFramesToGhost: 90,
+        // Number of pixels required to update number frames held
+        distToReset: 6
       }
     }
   }
