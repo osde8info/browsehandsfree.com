@@ -5,7 +5,6 @@ module.exports = {
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.png' }],
-    ['script', { src: 'https://unpkg.com/handsfree@6.1.4/dist/handsfree.js' }],
     [
       'script',
       { src: 'https://www.googletagmanager.com/gtag/js?id=UA-155013240-1' }
@@ -17,11 +16,12 @@ module.exports = {
           'https://cdn.jsdelivr.net/npm/canvas-confetti@0.5.0/dist/confetti.browser.min.js'
       }
     ],
+    ['script', { src: 'https://unpkg.com/handsfree@6.1.7/dist/handsfree.js' }],
     [
       'link',
       {
         rel: 'stylesheet',
-        href: 'https://unpkg.com/handsfree@6.1.4/dist/handsfree.css'
+        href: 'https://unpkg.com/handsfree@6.1.7/dist/handsfree.css'
       }
     ]
   ],

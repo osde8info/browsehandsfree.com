@@ -10,10 +10,12 @@ description: Handsfree.js is a thin wrapper around popular computer vision model
     <Logo :styles='"width: 200px"' />
     <h1>Handsfree.js</h1>
     <p>
-      <a href="https://github.com/handsfreejs/handsfree" class="mr-2"><img class="mr-1" src="https://img.shields.io/github/last-commit/handsfreejs/handsfree.svg"></a>
-      <a href="https://github.com/handsfreejs/handsfree"><img class="mr-1" src="https://img.shields.io/github/stars/handsfreejs/handsfree?style=social"></a>
+      <a href="https://github.com/handsfreejs/handsfree" class="mr-1"><img src="https://img.shields.io/github/release-pre/handsfreejs/handsfree.svg"></a>
+      <a href="https://github.com/handsfreejs/handsfree" class="mr-1"><img src="https://img.shields.io/github/last-commit/handsfreejs/handsfree.svg"></a>
+      <a href="https://github.com/handsfreejs/handsfree"><img src="https://img.shields.io/github/stars/handsfreejs/handsfree?style=social"></a>
     </p>
     <p class="text-left">A wrapper library around computer vision models for the purpose of interacting with the web handsfree. <b>Works with Chrome and Firefox!</b></p>
+    <p><ToggleWebcam /></p>
     <p><small>Powered by:</small></p>
     <p>
       <a class="mr-3" href="https://github.com/jeeliz/jeelizWeboji">
@@ -80,6 +82,9 @@ description: Handsfree.js is a thin wrapper around popular computer vision model
   <div class="column">
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">In this tutorial, we explore face painting with P5.js! Here&#39;s my attempt at a barn with chickens and trees 🏠🌳🌞<br><br>Tutorial: <a href="https://t.co/FhgzPovWeq">https://t.co/FhgzPovWeq</a><br>Demo: <a href="https://t.co/qV0aEcdNRL">https://t.co/qV0aEcdNRL</a><br><br>Day 2 of <a href="https://twitter.com/hashtag/100DaysofCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysofCode</a> and <a href="https://twitter.com/hashtag/100DaysofMLCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysofMLCode</a> <a href="https://t.co/XizZRB1162">pic.twitter.com/XizZRB1162</a></p>&mdash; Oz Ramos (@HeyOzRamos) <a href="https://twitter.com/HeyOzRamos/status/1201337876933496832?ref_src=twsrc%5Etfw">December 2, 2019</a></blockquote>
   </div>
+  <div class="column">
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m starting a series of tutorials on how to use Handsfree.js and P5.js to create Instagram SparkAR-like filters and effects!<br><br>This first one was inspired by the last scene in <a href="https://twitter.com/cassidoo?ref_src=twsrc%5Etfw">@cassidoo</a>&#39;s &quot;Impossible&quot; meme 🎤<br><br>Demo: <a href="https://t.co/vtFLVqxwck">https://t.co/vtFLVqxwck</a><br>Tutorial: <a href="https://t.co/HOp0iYnrXu">https://t.co/HOp0iYnrXu</a> <a href="https://t.co/XYUsWACVWc">pic.twitter.com/XYUsWACVWc</a></p>&mdash; Oz Ramos (@HeyOzRamos) <a href="https://twitter.com/HeyOzRamos/status/1220059662495543296?ref_src=twsrc%5Etfw">January 22, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
 </div>
 
 ---
@@ -94,7 +99,7 @@ description: Handsfree.js is a thin wrapper around popular computer vision model
     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">What if you could control your desktop with your face?<br><br>In this experiment I play Candy Crush handsfree by moving my mouse with my head and smirk to click. This uses Robot.js to control the desktop mouse. Code <br>+ tutorial soon!<br><br>Day 11 of <a href="https://twitter.com/hashtag/100DaysofMLCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysofMLCode</a> and <a href="https://twitter.com/hashtag/100DaysofCode?src=hash&amp;ref_src=twsrc%5Etfw">#100DaysofCode</a> <a href="https://t.co/FVZ2IQRAwz">pic.twitter.com/FVZ2IQRAwz</a></p>&mdash; Oz Ramos (@HeyOzRamos) <a href="https://twitter.com/HeyOzRamos/status/1197722565646540800?ref_src=twsrc%5Etfw">November 22, 2019</a></blockquote>
   </div>
   <div class="column">
-    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">More experiments with <a href="https://twitter.com/hashtag/TensorFlow?src=hash&amp;ref_src=twsrc%5Etfw">#TensorFlow</a> <a href="https://twitter.com/hashtag/BodyPix?src=hash&amp;ref_src=twsrc%5Etfw">#BodyPix</a>, this time I made a 90&#39;s TV color blast effect!<br><br>Demo: <a href="https://t.co/TrIfkSXNrc">https://t.co/TrIfkSXNrc</a><a href="https://twitter.com/glitch?ref_src=twsrc%5Etfw">@Glitch</a> Source: <a href="https://t.co/0zFHlzB0nJ">https://t.co/0zFHlzB0nJ</a> <a href="https://t.co/2JN38FkVbv">pic.twitter.com/2JN38FkVbv</a></p>&mdash; Oz Ramos (@HeyOzRamos) <a href="https://twitter.com/HeyOzRamos/status/1209204747254681602?ref_src=twsrc%5Etfw">December 23, 2019</a></blockquote>
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Super excited to announce that I&#39;ve been invited back for another residency <a href="https://twitter.com/creativeinquiry?ref_src=twsrc%5Etfw">@creativeinquiry</a> at CMU! Can&#39;t wait to catch up with everyone!<br><br>Here&#39;s a clip from a project I worked on last year while there. It uses Handsfree.js to &quot;puppeteer&quot; the robot with my head from the browser! <a href="https://t.co/JuIH21yyr4">pic.twitter.com/JuIH21yyr4</a></p>&mdash; Oz Ramos (@HeyOzRamos) <a href="https://twitter.com/HeyOzRamos/status/1219751429629333505?ref_src=twsrc%5Etfw">January 21, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
 </div>
 
