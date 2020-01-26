@@ -12,7 +12,7 @@ image: /browsehandsfree-cover.jpg
 ---
 
 ::: warning Coming Soon 📅
-**1/9/20** - This site is still in the works. Our plan is to officially launch by February 2020. Follow me on [Twitter @HeyOzRamos](https://twitter.com/heyozramos)
+**1/25/20** - This site is still in the works. Our plan is to officially launch by February 2020. Follow me on [Twitter @HeyOzRamos](https://twitter.com/heyozramos)
 :::
 
 <!-- Features section -->
